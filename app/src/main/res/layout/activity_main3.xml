@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gelenVeri"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextdans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Dans eder misiniz"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextspor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="sporla ilgilenir misiniz"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextkitap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="kitap okumayı sever misiniz"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btndevam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVAM" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

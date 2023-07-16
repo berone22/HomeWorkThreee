@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewgelen"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editTextSehir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="OKUDUĞUNUZ ŞEHİR"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="POSTA ADRESİNİ GİRİNİZ"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextcinsiyet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CİNSİYET BELİRTİNİZ"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btndevam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVAM" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
